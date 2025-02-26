@@ -1,0 +1,199 @@
+/* Projects Container */
+
+.projects-container {
+  color: #ffffff;
+  /* padding: 80px 0; */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Project Cards */
+.project-card {
+  background-color: #2a2a2a;
+  border: none;
+  height: 60vh;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  
+}
+
+.project-card .card-img-top {
+  border-radius: 15px 15px 0 0;
+  height: 150px;
+  object-fit: cover;
+}
+
+.project-card .card-body {
+  
+  position: relative;
+  top:40px;
+  
+}
+
+.project-card .card-title {
+  color: #FF647F;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.project-card .card-text {
+  color: #e0e0e0;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #FF647F;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.btn-primary:hover {
+  background-color: #ff4666;
+  transform: scale(1.05);
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Section Title */
+h2.text-center {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FF647F;
+  position:relative;
+  margin-bottom:10px;
+  padding-top: 20px;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 40px 0;
+  }
+
+ 
+ 
+
+  .project-card .card-title {
+    font-size: 1.3rem;
+  }
+
+  .project-card .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Navigation Styles (matching your existing theme) */
+.navbar {
+  background-color: transparent;
+  padding: 1rem 0;
+}
+
+.navbar-brand img.logo {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+  padding: 8px 15px !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #FF647F !important;
+  transform: translateY(-2px);
+}
+
+/* Grid Layout Improvements */
+.row {
+  margin: 0 -15px;
+}
+
+.col-md-4 {
+  padding: 0 15px;
+}
+
+body{
+  overflow: hidden;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.home-container {
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Video Background */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Dark Overlay */
+.dark-overlay {
+  position: relative;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+/* Style général des images du projet */
+.project-card img {
+  width: 100%; /* Ajuste la largeur à 100% du conteneur */
+  height: 250px; /* Hauteur fixe pour uniformiser les images */
+  object-fit: cover; /* Assure un bon recadrage de l'image */
+  border-radius: 10px;
+  bottom: 40px; /* Coins arrondis */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Effet au survol des images */
+.project-card img:hover {
+  transform: scale(1.05); /* Légère augmentation de taille */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre légère */
+}
+
+/* Style spécifique pour chaque image */
+.project-card img[src*="sweetring"] {
+  border: 3px solid #ff6699; /* Bordure rose pour l'image 1 */
+}
+
+.project-card img[src*="mik"] {
+  border: 3px solid #ffcc00; /* Bordure jaune pour l'image 2 */
+}
+
+.project-card img[src*="ssm"] {
+  border: 3px solid #66ccff; /* Bordure bleue pour l'image 3 */
+}

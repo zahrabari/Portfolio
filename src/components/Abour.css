@@ -1,0 +1,118 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+ 
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+ 
+  nav {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  nav .conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button .icon {
+    width: 30px;
+    height: 3px;
+    background: white;
+    display: block;
+    position: relative;
+  }
+  
+  button .icon::before,
+  button .icon::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: white;
+    left: 0;
+  }
+  
+  button .icon::before {
+    top: -8px;
+  }
+  
+  button .icon::after {
+    bottom: -8px;
+  } */
+  .normal{
+    color: white;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .normal p {
+    border-bottom-color: rgba(255, 255, 255, 0.3) !important;  /* Makes the border slightly transparent */
+    border-bottom-width: 2px !important;
+    font-size:25px; 
+    margin-top: 45px;
+    position: relative; /* Makes the border thicker */
+    bottom: 40px;
+  }
+  .norsin i{
+    font-size: 25px;
+    top: -100px;
+    position: relative;
+    left:46%;
+    padding:10px;
+    
+  }

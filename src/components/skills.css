@@ -1,0 +1,86 @@
+.skills-container {
+  margin-top: 80px;  /* Espace en haut de la section */
+}
+
+.skills-title {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;  /* Espace au-dessus du titre */
+}
+
+.skills-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+}
+
+.skills-subtitle {
+  color: #ccc;
+  text-align: center;
+  font-size: 1.2rem;
+ bottom:  22px;
+  position: relative;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fs-1{
+    font-size: o;
+    position: relative;
+    top: 10px;
+}
+.skill-box{
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+padding: 20px;
+margin: 15px;  /* Marge uniforme autour des boîtes */
+margin-top: -40px;  /* Espace supplémentaire en haut */
+transition: all 0.3s ease;
+box-shadow: 
+  0 4px 6px rgba(0, 0, 0, 0.1),
+  0 1px 3px rgba(0, 0, 0, 0.08),
+  inset 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.2),
+    0 6px 6px rgba(0, 0, 0, 0.15),
+    inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Pour les icônes */
+.fs-1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  margin-top: 10px;  /* Espace au-dessus des icônes */
+  transition: all 0.3s ease;
+}
+
+.skill-box:hover .fs-1 {
+  transform: scale(1.1);
+}
+
+/* Pour le nom des compétences */
+.skill-box p {
+  color:white;
+  margin-top:10px;  /* Espace au-dessus du texte */
+  font-size: 1rem;
+  font-weight: 500;
+}
