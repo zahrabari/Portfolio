@@ -113,9 +113,24 @@ h2.text-center {
   padding: 1rem 0;
 }
 
+/* Logo Styling */
+.navbar-brand {
+  align-items: center;
+}
+
 .navbar-brand img.logo {
-  height: 40px;
-  margin-right: 15px;
+  height: 60px;  /* Adjust logo image size */
+  margin-right: -10px;
+  font-size: 40px;
+  position: relative;
+
+}
+
+.navbar-brand span {
+  font-size: 2.5rem;  /* Increase text size */
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0.5px;
 }
 
 .nav-link {
@@ -196,4 +211,13 @@ body{
 
 .project-card img[src*="ssm"] {
   border: 3px solid #66ccff; /* Bordure bleue pour l'image 3 */
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .navbar-brand span {
+    font-size: 1.4rem;  /* Smaller text on mobile */
+  }
+    
+
 }

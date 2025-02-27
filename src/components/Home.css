@@ -84,17 +84,22 @@ body{
 
 /* Navbar Brand Text */
 .navbar-brand span {
-  font-size: 2rem;  /* Adjust text size */
+  font-size: 3rem;  /* Adjust text size */
   font-weight: 500;   /* Make text slightly bolder */
   margin-left: 10px;  /* Add space between logo and text */
+}
+.logo {
+  font-size: 3rem; 
+  padding: 0; /* Increased from 2rem for better visibility */
 }
 
 /* Responsive adjustment */
 @media (max-width: 768px) {
   .navbar-brand span {
-    font-size: 2rem;  /* Smaller text on mobile devices */
+    font-size: 2rem;
   }
   .text-light {
-    font-size: 2rem;  /* Smaller text on mobile devices */
+    font-size: 2rem;
   }
+ 
 }

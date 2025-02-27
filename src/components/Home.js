@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import profileImage from "./zahra.jpeg";
+import profileImage from "./me.jpeg";
 import './Home.css';
 
 
@@ -25,7 +25,7 @@ export default function Home() {
             <div className="container">
               {/* Logo */}
               <a className="navbar-brand" href="/">
-                <img src={logo} alt="Logo" className="logo pr-4" />
+                <img src={logo} alt="Logo" className="logo" />
                 <span className="text-light"> Developer Web Full Stack</span>
               </a>
 
